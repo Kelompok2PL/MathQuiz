@@ -12,7 +12,7 @@ namespace MathQuiz
 {
     public partial class Form1 : Form
     {
-        private bool CheckTheAnswer() //Aric
+        private bool CheckTheAnswer() //Aric Yohanes
         {
             if ((addend1 + addend2 == sum.Value)
                 && (minuend - subtrahend == difference.Value)
