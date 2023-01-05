@@ -1,4 +1,6 @@
-﻿namespace MathQuiz
+﻿using System;
+
+namespace MathQuiz
 {
     partial class Form1
     {
@@ -353,6 +355,7 @@
         private System.Windows.Forms.Label divideRightLabel;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label divideLeftLabel;
+        private EventHandler product_ValueChanged;
     }
 }
 
