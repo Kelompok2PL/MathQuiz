@@ -12,7 +12,7 @@ namespace MathQuiz
 {
     public partial class Form1 : Form
     {
-        Random randomizer = new Random(); // Zia
+        Random randomizer = new Random(); // Nur Azzizah
 
         int addend1;
         int addend2;
