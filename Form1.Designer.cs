@@ -53,7 +53,6 @@ namespace MathQuiz
             this.divideRightLabel = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.divideLeftLabel = new System.Windows.Forms.Label();
-            this.startButton = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.StartQuiz = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sum)).BeginInit();
@@ -273,14 +272,6 @@ namespace MathQuiz
             this.divideLeftLabel.Text = "?";
             this.divideLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // startButton
-            // 
-            this.startButton.Location = new System.Drawing.Point(0, 0);
-            this.startButton.Margin = new System.Windows.Forms.Padding(2);
-            this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(50, 15);
-            this.startButton.TabIndex = 0;
-            // 
             // timer1
             // 
             this.timer1.Interval = 1000;
@@ -295,6 +286,7 @@ namespace MathQuiz
             this.StartQuiz.TabIndex = 21;
             this.StartQuiz.Text = "Start The Quiz";
             this.StartQuiz.UseVisualStyleBackColor = true;
+            this.StartQuiz.Click += new System.EventHandler(this.StartQuiz_Click);
             // 
             // Form1
             // 
@@ -302,7 +294,6 @@ namespace MathQuiz
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.StartQuiz);
-            this.Controls.Add(this.startButton);
             this.Controls.Add(this.quotient);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.divideRightLabel);
@@ -362,7 +353,6 @@ namespace MathQuiz
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label divideLeftLabel;
         private EventHandler product_ValueChanged;
-        private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button StartQuiz;
     }
