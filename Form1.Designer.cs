@@ -286,6 +286,7 @@ namespace MathQuiz
             this.StartQuiz.TabIndex = 21;
             this.StartQuiz.Text = "Start The Quiz";
             this.StartQuiz.UseVisualStyleBackColor = true;
+            this.StartQuiz.Click += new System.EventHandler(this.StartQuiz_Click);
             // 
             // Form1
             // 

@@ -51,7 +51,7 @@ namespace MathQuiz
                 timer1.Stop();
                 MessageBox.Show("You got all the answer right!",
                     "Congratulations!");
-                startButton.Enabled = true;
+                StartQuiz.Enabled = true;
 
             }
             else if (timeLeft > 0)
@@ -69,10 +69,14 @@ namespace MathQuiz
                 difference.Value = minuend - subtrahend;
                 product.Value = multiplicand * multiplier;
                 quotient.Value = dividend / divisor;
-                startButton.Enabled = true;
+                StartQuiz.Enabled = true;
             }
 
         }
 
+        private void StartQuiz_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
