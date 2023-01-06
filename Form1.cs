@@ -44,7 +44,7 @@ namespace MathQuiz
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e) //Unik 21.11.4387
         {
             if (CheckTheAnswer())
             {
